@@ -282,29 +282,6 @@ const Home: React.FC = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-24 bg-white">
-        <div className="container mx-auto px-6">
-          <motion.div 
-            className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto"
-            variants={staggerContainer}
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-          >
-            {[
-            ].map((stat, index) => (
-              <motion.div
-                key={index}
-                variants={pageAnimations.fadeInUp}
-                className="text-center"
-              >
-                <div className="text-4xl md:text-5xl font-bold text-true-v-600 mb-2">{stat.number}</div>
-                <div className="text-text-medium">{stat.label}</div>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
 
       {/* Services Banner Section */}
       <section className="py-24 bg-gradient-to-r from-true-v-600 to-true-v-700 relative overflow-hidden">

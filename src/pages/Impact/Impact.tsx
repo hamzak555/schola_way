@@ -16,8 +16,6 @@ import {
 
 const Impact: React.FC = () => {
 
-  const metrics = [];
-
   const hubzoneLocations = [
     {
       city: "North Miami",
@@ -116,26 +114,6 @@ const Impact: React.FC = () => {
               </p>
             </motion.div>
 
-            {/* Metrics Cards */}
-            <div className="grid md:grid-cols-3 gap-8 mb-16">
-              {metrics.map((metric, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 40 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: index * 0.2 }}
-                  viewport={{ once: true }}
-                  className="bg-gradient-to-br from-true-v-50 to-true-v-100 p-8 rounded-2xl text-center"
-                >
-                  <div className="w-16 h-16 bg-true-v-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                    {React.createElement(metric.icon as any, { className: "text-2xl text-white" })}
-                  </div>
-                  <h3 className="text-4xl font-bold text-true-v-700 mb-3">{metric.number}</h3>
-                  <h4 className="text-xl font-semibold text-text-dark mb-3">{metric.label}</h4>
-                  <p className="text-text-medium">{metric.description}</p>
-                </motion.div>
-              ))}
-            </div>
 
             {/* Accountability Statement */}
             <motion.div
