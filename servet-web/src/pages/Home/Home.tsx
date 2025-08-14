@@ -377,8 +377,8 @@ const Home: React.FC = () => {
               >
                 <div className="rounded-2xl overflow-hidden shadow-2xl relative">
                   <img 
-                    src="/Photos/Graduate.jpg" 
-                    alt="Graduate in cap and gown celebrating academic achievement and career success"
+                    src="/Photos/mount-fuji-volcano-japan-river-reflection-boat-couple-5k-3840x2160-5440.jpg" 
+                    alt="Mount Fuji scenic landscape with river reflection and boat"
                     className="w-full h-[400px] object-cover"
                     loading="lazy"
                   />
