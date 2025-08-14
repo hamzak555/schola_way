@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import { IoChevronDown } from 'react-icons/io5';
-import { pageAnimations, staggerContainer, staggerItem, viewportConfig } from '../../utils/animations';
 
 interface FAQItem {
   question: string;

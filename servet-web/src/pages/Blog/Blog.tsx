@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaCalendar, FaUser, FaArrowRight } from 'react-icons/fa';
-import { pageAnimations, staggerContainer, staggerItem, viewportConfig } from '../../utils/animations';
 
 interface BlogPost {
   id: number;
