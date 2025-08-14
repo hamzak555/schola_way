@@ -292,10 +292,6 @@ const Home: React.FC = () => {
             viewport={{ once: true }}
           >
             {[
-              { number: "500+", label: "Students Guided" },
-              { number: "95%", label: "Success Rate" },
-              { number: "20+", label: "Years Experience" },
-              { number: "150+", label: "Partner Schools" }
             ].map((stat, index) => (
               <motion.div
                 key={index}

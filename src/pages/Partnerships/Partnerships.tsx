@@ -267,12 +267,8 @@ const Partnerships: React.FC = () => {
                     <div className="border-t pt-6 mt-6">
                       <div className="grid grid-cols-2 gap-4 text-center">
                         <div>
-                          <div className="text-2xl font-bold text-true-v-600">25+</div>
-                          <div className="text-sm text-text-medium">Active Partners</div>
                         </div>
                         <div>
-                          <div className="text-2xl font-bold text-true-v-600">100%</div>
-                          <div className="text-sm text-text-medium">Mutual Benefit</div>
                         </div>
                       </div>
                     </div>
@@ -319,8 +315,6 @@ const Partnerships: React.FC = () => {
                   Building trust and ensuring our services reach those who might not find us otherwise through community partnerships.
                 </p>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-true-v-700">85%</div>
-                  <div className="text-sm text-text-medium">Community Reach Increase</div>
                 </div>
               </motion.div>
 
@@ -340,8 +334,6 @@ const Partnerships: React.FC = () => {
                   Companies get motivated, prepared candidates while helping shape curriculum to meet industry needs.
                 </p>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-true-v-700">90%</div>
-                  <div className="text-sm text-text-medium">Employer Satisfaction</div>
                 </div>
               </motion.div>
 
@@ -361,8 +353,6 @@ const Partnerships: React.FC = () => {
                   Integrated career guidance throughout the educational journey leads to better outcomes for all participants.
                 </p>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-true-v-700">75%</div>
-                  <div className="text-sm text-text-medium">Improved Career Outcomes</div>
                 </div>
               </motion.div>
             </div>

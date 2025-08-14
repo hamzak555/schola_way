@@ -302,22 +302,6 @@ const About: React.FC = () => {
               </div>
             </motion.div>
 
-            {/* International Recognition */}
-            <motion.div
-              initial={{ opacity: 0.4, y: 15 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true, margin: "-100px" }}
-              className="text-center bg-gradient-to-r from-true-v-600 to-true-v-700 p-8 rounded-2xl text-white"
-            >
-              <h3 className="text-2xl font-bold mb-4">International Recognition</h3>
-              <p className="text-lg opacity-90 mb-4">
-                In 2024, Ms. Şirin served as an expert trainer in two European Union-funded Erasmus+ projects in Slovenia and Bulgaria, demonstrating her leadership in international career education and mentorship contexts.
-              </p>
-              <p className="text-base opacity-80">
-                Her wealth of experience as a visionary leader, combined with her commitment to social impact, forms the cornerstone of Schola Education's programs.
-              </p>
-            </motion.div>
           </div>
         </div>
       </section>

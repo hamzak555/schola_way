@@ -230,49 +230,6 @@ const Programs: React.FC = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <h3 className="text-4xl font-bold text-true-v-600 mb-2">500+</h3>
-              <p className="text-text-medium">Students Guided</p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-            >
-              <h3 className="text-4xl font-bold text-true-v-600 mb-2">95%</h3>
-              <p className="text-text-medium">Success Rate</p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-            >
-              <h3 className="text-4xl font-bold text-true-v-600 mb-2">50+</h3>
-              <p className="text-text-medium">Partner Schools</p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-            >
-              <h3 className="text-4xl font-bold text-true-v-600 mb-2">15+</h3>
-              <p className="text-text-medium">Years Experience</p>
-            </motion.div>
-          </div>
-        </div>
-      </section>
 
       {/* Testimonial Section */}
       <section className="py-24 bg-gradient-to-br from-true-v-50 to-white">

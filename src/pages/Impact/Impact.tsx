@@ -16,26 +16,7 @@ import {
 
 const Impact: React.FC = () => {
 
-  const metrics = [
-    {
-      number: "5,000+",
-      label: "Young People & Immigrants",
-      description: "Direct service target in first 5 years",
-      icon: FaUser
-    },
-    {
-      number: "70%",
-      label: "Success Rate Goal",
-      description: "Participants continuing education or securing employment within 6 months",
-      icon: FaGraduationCap
-    },
-    {
-      number: "100%",
-      label: "Data-Driven",
-      description: "Continuous tracking and transparent reporting of all metrics",
-      icon: FaChartBar
-    }
-  ];
+  const metrics = [];
 
   const hubzoneLocations = [
     {
