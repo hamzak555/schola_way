@@ -1,0 +1,10 @@
+{
+  "name": "schola-way-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd servet-web && npm install && npm run build",
+    "start": "cd servet-web && npm start",
+    "install": "cd servet-web && npm install"
+  }
+}
